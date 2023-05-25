@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Який Гамбургер бажаєте замовити ?</h1>
+
+      <fieldset>
+        <legend>Розмір гамбургеру</legend>
+        <label>
+          <input type="radio" name="size" value="small" checked />
+          Малий
+        </label>
+        <label>
+          <input type="radio" name="size" value="big" />
+          Великий
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Додати начинку ?</legend>
+        <label>
+          <input type="radio" name="filling" value="none" checked />
+          Без начинки
+        </label>
+        <label>
+          <input type="radio" name="filling" value="cheese" />
+          Сир
+        </label>
+        <label>
+          <input type="radio" name="filling" value="salad" />
+          Салат
+        </label>
+        <label>
+          <input type="radio" name="filling" value="fries" />
+          Картопля
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Додатково</legend>
+        <label>
+          <input type="checkbox" name="topping" value="flavouring" />
+          Посипати приправою
+        </label>
+        <label>
+          <input type="checkbox" name="topping" value="mayo" />
+          Полити майонезом
+        </label>
+      </fieldset>
+
+      <div class="calories">
+        <button class="calories-button" type="submit">
+          Розрахувати калорійність
+        </button>
+        <span></span>
+      </div>
+
+      <div class="price">
+        <button class="price-button" type="submit">Розрахувати вартість</button>
+        <span></span>
+      </div>
+    </form>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
