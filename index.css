@@ -1,0 +1,31 @@
+form {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin-right: 30px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3052d7;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+}
+
+span {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #3052d7;
+}
+
+div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
